@@ -430,8 +430,6 @@ it:
   filter_subject: Soggetto
   filter_subsequent_entries: Notizie successive
   filter_term: Termine
-  filter_textincipit: Incipit testuale
-  filter_textinipit: Incipit testuale
   filter_thematic_opus: Catalogo / Num. d'opera
   filter_title: Titolo
   filter_title_on_ms: Titolo diplomatico

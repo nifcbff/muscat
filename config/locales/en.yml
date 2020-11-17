@@ -128,6 +128,7 @@ en:
       entry:
         one: entry
         other: entries
+      few: Few
       multiple: Displaying %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{total}</b> in total
       multiple_without_total: Displaying %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b>
       one: Displaying <b>1</b> %{model}
@@ -136,6 +137,9 @@ en:
     powered_by: Powered by %{active_admin} %{version}
     previous: Previous
     save_model: Save
+    search_status:
+      current_filters: Current filters
+      headline: Headline
     sidebars:
       actions: Actions
       filters: Filters
@@ -205,14 +209,44 @@ en:
     header_links:
       logout: Logout
     range_limit:
+      range_begin: '%{field_label} range begin'
+      range_end: '%{field_label} range end'
+      remove_limit: Remove
       submit_limit: Refine
     search:
+      documents:
+        counter: Counter
       facets:
+        sort:
+          count: Count
+          index: Index
         title: Refine your search
+      form:
+        q: Query
+        search:
+          placeholder: Query
+      sort:
+        label: Label
       start_over: Start again
+    search_history:
+      clear:
+        action_confirm: Confirm Action
+        action_title: Action Title
+        success: Success
+      no_history: No history
+      title: Title
   blacklight_advanced_search:
+    all: All
+    any: Any
     form:
+      limit_criteria_heading_html: <strong>and</strong> have these attributes
+      query_criteria_heading_html: Find the elements corresponding to %{select_menu}
+      search_btn: Search
+      search_context: Context
+      sort_label: Sort
       start_over: Start again
+      title: Title
+  body: Body
   btn_themefinder_reset: Reset
   cancel: Cancel
   cannot_create_source: You are not authorized to create this type of source
@@ -244,6 +278,29 @@ en:
     type_created: Recently created
     type_updated: Recently updated
     update: Update
+  date:
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    month_names:
+    - 
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
   delete: Delete
   digital_object:
     one: digital object
@@ -374,7 +431,6 @@ en:
   filter_subject: Subject
   filter_subsequent_entries: Subsequent Entries
   filter_term: Term
-  filter_textincipit: Textincipit
   filter_thematic_opus: Thematic cat. / Opus no.
   filter_title: Title
   filter_title_on_ms: Title on source
@@ -696,6 +752,10 @@ en:
   validation_level_error: There are errors, please solve before saving
   validation_level_warning: There are warnings, save again to override
   view_source: View Source
+  views:
+    pagination:
+      next: Next
+      previous: Previous
   waiting: Waiting
   wf_stage:
     deleted: Deleted
