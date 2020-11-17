@@ -208,12 +208,33 @@ pl:
     range_limit:
       submit_limit: Sprecyzuj
     search:
+      documents:
+        counter: Licznik
       facets:
+        sort:
+          count: Hrabia
+          index: Indeks
         title: Sprecyzuj wyszukiwanie
+      sort:
+        label: Etykieta
       start_over: Zacznij od nowa
+    search_history:
+      clear:
+        action_confirm: Potwierdzenie działania
+        action_title: Tytuł działania
+        success: Sukces
+      no_history: Nie ma historii
+      title: Sprecyzuj wyszukiwanie
   blacklight_advanced_search:
     form:
+      limit_criteria_heading_html: "<strong>i</strong> mają tę cechę"
+      query_criteria_heading_html: Wyszukiwanie tytułów odpowiadających kryteriom %{select_menu}
+      search_btn: Szukaj
+      search_context: Kontekst wyszukiwania
+      sort_label: Etykieta sortownicza
       start_over: Zacznij od nowa
+      title: Title
+  body: Body
   btn_themefinder_reset: Wyzeruj
   cancel: Anuluj
   cannot_create_source: Nie masz uprawnienia do utworzenia tego rodzaju źródła.
@@ -699,6 +720,10 @@ pl:
   validation_level_error: Wystąpiły błędy. Napraw je przed zapisaniem.
   validation_level_warning: Wystąpiły ostrzeżenia. Zapisz ponownie, by je skasować.
   view_source: Sprawdź źródło
+  views:
+    pagination:
+      next: Następnie
+      previous: Poprzedni
   waiting: Oczekiwanie
   wf_stage:
     deleted: Usunięte

@@ -22,6 +22,7 @@ pt:
       delete_confirmation: Tem certeza de que quer apagar estes %{plural_model}?
       labels:
         add_to_folder: Adicionar itens a pasta existente
+        change_template: Alterar modelo
         destroy: Apagar
         folder: Criar pasta com itens
         merge: Combinar registros de autoridade
@@ -203,6 +204,36 @@ pt:
     application_name: Muscat
     header_links:
       logout: Logout
+    range_limit:
+      submit_limit: Refinar
+    search:
+      documents:
+        counter: Contador
+      facets:
+        sort:
+          count: Conde
+          index: Índice
+        title: Refine a sua pesquisa
+      sort:
+        label: Etiqueta
+      start_over: Iniciar agin
+    search_history:
+      clear:
+        action_confirm: Confirmar Acção
+        action_title: Título da acção
+        success: Sucesso
+      no_history: Sem história
+      title: Título
+  blacklight_advanced_search:
+    form:
+      limit_criteria_heading_html: "<strong>e</strong> ter este atributo"
+      query_criteria_heading_html: Pesquisa de títulos correspondentes aos critérios %{select_menu}
+      search_btn: Pesquisa
+      search_context: Contexto de pesquisa
+      sort_label: Ordenar
+      start_over: Começar de novo
+      title: Título
+  body: Body
   btn_themefinder_reset: Reset
   cancel: Cancelar
   cannot_create_source: O usuário não tem autorização para criar este tipo de fonte
@@ -389,6 +420,7 @@ pt:
     export_limit: O número máximo de itens descarregáveis é %{max}, enquanto esta pasta contém %{count} de itens.
     export_started: 'Foi enviado um e-mail contendo o link para download para %{email} (Export job id: %{job}).'
     folder_empty: A pasta está vazia
+    folder_not_source: Apenas pastas contendo Fontes podem ser validadas
     items: Elementos
     not_found: A pasta %{id} é inexistente.
     publish_job: 'Início do Job de publicação (id: %{id})'
@@ -398,6 +430,7 @@ pt:
     success_bg: Pasta %{name} criada, trabalho %{job} na fila.
     too_many: Não é possível adicionar mais que %{max} itens (%{count} selecionados).
     unpublish_job: 'Início do Job de cancelamento da publicação (id: %{id})'
+    validation_started: 'Será enviado um e-mail para %{email} com a validação terminada (Validação id do trabalho: %{job}).'
   from_existing_source: Criar a partir de uma fonte existente
   full_level: Registro completo
   hide_preview: Ocultar previsualização
@@ -544,6 +577,7 @@ pt:
     libretti_handwritten: Libretos, manuscritos
     libretti_printed: Libretos, impressos
     libretto_edition: Libreto, impresso
+    libretto_edition_content: Printed libretto, item in collection
     libretto_source: Libreto, manuscrito
     music_manuscripts: Manuscritos musicais
     printed_music: Música impressa
@@ -555,6 +589,7 @@ pt:
     single_threatise_printed: Tratado impresso único
     source: Manuscrito musical
     theoretica_edition: Tratado, impresso
+    theoretica_edition_content: Printed treatise, item in collection
     theoretica_source: Tratado, manuscrito
     threatise_handwritten: Tratado, manuscrito
     threatise_printed: Tratado, impresso
@@ -562,6 +597,7 @@ pt:
   record_types_codes:
     '0': UNK
     '1': COL
+    '10': TEC
     '11': CMP
     '2': MSR
     '3': SUB
@@ -570,6 +606,7 @@ pt:
     '6': TSR
     '7': TEC
     '8': EDT
+    '9': LEC
   refers_to_this: "%{model_from} se refere a este %{model_to}"
   reindex: Reindexar fontes
   resave: Salvar fontes novamente
@@ -680,6 +717,10 @@ pt:
   validation_level_error: Há erros, por favor resolva antes de salvar.
   validation_level_warning: Estes são avisos, salve novamente para ignorar.
   view_source: View Source
+  views:
+    pagination:
+      next: Próximo
+      previous: Anterior
   waiting: Esperando
   wf_stage:
     deleted: Apagado

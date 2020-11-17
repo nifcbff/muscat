@@ -204,6 +204,36 @@ es:
     application_name: Muscat
     header_links:
       logout: Cerrar sesión
+    range_limit:
+      submit_limit: Refine
+    search:
+      documents:
+        counter: Contador
+      facets:
+        sort:
+          count: Cuenta
+          index: Índice
+        title: Refine su búsqueda
+      sort:
+        label: Etiqueta
+      start_over: Empieza de nuevo
+    search_history:
+      clear:
+        action_confirm: Confirmar la acción
+        action_title: Título de la acción
+        success: Éxito
+      no_history: No hay historia
+      title: Título
+  blacklight_advanced_search:
+    form:
+      limit_criteria_heading_html: "<strong>y</strong> tienen este atributo"
+      query_criteria_heading_html: Buscar títulos que coincidan con los criterios %{select_menu}
+      search_btn: Busca
+      search_context: Contexto de la búsqueda
+      sort_label: Ordenar
+      start_over: Empieza de nuevo
+      title: Título
+  body: Body
   btn_themefinder_reset: Reiniciar
   cancel: Cancelar
   cannot_create_source: Ud. no está autorizado para crear este tipo de fuente
@@ -365,6 +395,7 @@ es:
   filter_subject: Descriptor
   filter_subsequent_entries: Registros posteriores
   filter_term: Término
+  filter_textincipit: Textincipit
   filter_textinipit: Íncipit literario
   filter_thematic_opus: Catálogo temático / Opus no.
   filter_title: Título
@@ -390,6 +421,7 @@ es:
     export_limit: El número máximo de elementos descargables es %{max}, mientras que esta carpeta contiene %{count} de elementos.
     export_started: 'Se ha enviado un correo electrónico con el enlace de descarga a %{email}. (Export job id: %{job}).'
     folder_empty: La carpeta está vacía
+    folder_not_source: Sólo se pueden validar las carpetas que contienen Fuentes
     items: Elementos
     not_found: La carpeta %{id} es inexistente
     publish_job: 'El Job de publicación comenzó (id: %{id})'
@@ -399,6 +431,7 @@ es:
     success_bg: Carpeta %{name} creada, tarea %{job} pendiente.
     too_many: No se puede añadir más de %{max} ítems (%{count} seleccionados).
     unpublish_job: 'El Job de cancelación de la publicación comenzó (id: %{id})'
+    validation_started: 'Se enviará un correo electrónico a %{email} con la validación ha terminado (Validación de trabajo id: %{trabajo}).'
   from_existing_source: Crear a partir de un registro existente
   full_level: Registro completo
   hide_preview: Ocultar vista preliminar
@@ -525,6 +558,7 @@ es:
   record_owner: Propietario del registro
   record_status: Estado del registro
   record_types:
+    ":": ":"
     collection: Manuscrito musical, registro madre de colección
     collection_record: Registro de colección para un manuscrito musical
     collection_record_edition: Registro de colección para una edición musical impresa
@@ -565,6 +599,8 @@ es:
   record_types_codes:
     '0': UNK
     '1': COL
+    '10': TEC
+    '11': CMP
     '2': MMS
     '3': MPR
     '4': LMS
@@ -572,6 +608,7 @@ es:
     '6': TMS
     '7': TPR
     '8': CVT
+    '9': LEC
   refers_to_this: "%{model_from} refiere a este %{model_to}"
   reindex: Reindizar las fuentes
   resave: Volver a guardar las fuentes
@@ -616,6 +653,7 @@ es:
     other: títulos o íncipits de texto
   status: Estado
   status_codes:
+    deprecated: DEP
     inprogress: INP
     published: PUB
   std_title_contains: Título uniforme contiene
@@ -681,6 +719,10 @@ es:
   validation_level_error: El registro tiene errores. Por favor, resuélvalos antes de guardar.
   validation_level_warning: El registro presenta advertencias. Si desea ignorarlas, pulse nuevamente en guardar.
   view_source: Mostrar fuente
+  views:
+    pagination:
+      next: Siguiente
+      previous: Anterior
   waiting: Esperando
   wf_stage:
     deleted: Borrado

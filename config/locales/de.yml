@@ -209,6 +209,24 @@ de:
       range_end: "%{field_label} Bereichsende"
       remove_limit: Entfernen
       submit_limit: Beschränken
+    search:
+      documents:
+        counter: Schalter
+      facets:
+        sort:
+          count: Zählen Sie
+          index: Inhaltsverzeichnis
+        title: Verfeinern Sie Ihre Suche
+      sort:
+        label: Etikett
+      start_over: Beginn gegen
+    search_history:
+      clear:
+        action_confirm: Aktion bestätigen
+        action_title: Titel der Aktion
+        success: Erfolg
+      no_history: Keine Geschichte
+      title: Titel
   blacklight_advanced_search:
     all: allen Eigenschaften
     any: irgendeiner Eigenschaft
@@ -220,6 +238,7 @@ de:
       sort_label: Ordnen nach
       start_over: Zurücksetzen
       title: Erweiterte Suche
+  body: Body
   btn_themefinder_reset: Zurücksetzen
   cancel: Abbrechen
   cannot_create_source: Sie sind nicht berechtigt, diese Art von Quellen zu erstellen
@@ -429,6 +448,7 @@ de:
     export_limit: Die Grenze für exportierbare Elemente ist %{max}, dieser Ordner enthält %{count} Elemente.
     export_started: 'Es wird eine E-Mail mit dem Download-Link an %{email} geschickt (Export job id: %{job}).'
     folder_empty: Ordner enthält keine Elemente
+    folder_not_source: Nur Ordner, die Quellen enthalten, können validiert werden
     items: Einträge
     not_found: Ordner %{id} existiert nicht
     publish_job: 'Job der Veröffentlichung gestartet (id: %{id})'
@@ -438,6 +458,7 @@ de:
     success_bg: Ordner %{name} erstellt, Auftrag %{job} in Warteschleife.
     too_many: Es können nicht mehr als %{max} Datensätze ausgewählt werden (%{count} wurden ausgewählt).
     unpublish_job: 'Job der Unveröffentlichung gestartet (id: %{id})'
+    validation_started: 'Eine E-Mail wird an %{email} geschickt, wenn die Validierung beendet ist (Validierungs-Job-ID: %{job}).'
   from_existing_source: Erstellen aus vorhandener Quelle
   full_level: Vollkatalogisat
   hide_preview: Vorschau verbergen
@@ -601,6 +622,19 @@ de:
     threatise_handwritten: Theoreticum, handschriftlich
     threatise_printed: Theoreticum, gedruckt
     unspecified: "[Unbekannte Vorlage]"
+  record_types_codes:
+    '0': UNK
+    '1': COL
+    '10': TEC
+    '11': CMP
+    '2': MSR
+    '3': SUB
+    '4': LSR
+    '5': LED
+    '6': TSR
+    '7': TED
+    '8': EDT
+    '9': LEC
   refers_to_this: "%{model_from} die sich auf diesen %{model_to} beziehen"
   reindex: Reindexieren
   resave: Erneut speichern
@@ -644,6 +678,10 @@ de:
     one: Titel oder Textincipit
     other: Titel oder Textincipits
   status: Status
+  status_codes:
+    deprecated: DEP
+    inprogress: UNP
+    published: PUB
   std_title_contains: Einordnungstitel enthält
   switch_language: Sprache ändern
   tf_acknowledgments: Die Incipit-Suche verwendet das Tool <a href="http://www.themefinder.org/" target="_blank">Themefinder</a>, das vom <a href="http://www.ccarh.org/" target="_blank">CCARH</a> entwickelt wurde.
@@ -707,6 +745,10 @@ de:
   validation_level_error: Die Fehler müssen vor dem Speichern behoben werden.
   validation_level_warning: Erneut speichern, um die Warnung(en) zu ignorieren.
   view_source: Quelle anzeigen
+  views:
+    pagination:
+      next: Nächste
+      previous: Vorherige
   waiting: Wartet
   wf_stage:
     deleted: Gelöscht

@@ -194,6 +194,7 @@ it:
       workgroup:
         one: Gruppo
         other: Gruppi
+  add_institution: Collega istituzione
   add_person: Collega persona
   add_source: Collega fonte
   any_field_contains: Qualsiasi campo contiene
@@ -212,11 +213,27 @@ it:
       remove_limit: rimuovi
       submit_limit: Limita
     search:
+      documents:
+        counter: Contatore
+      facets:
+        sort:
+          count: Totale
+          index: Indice
+        title: Rifinisci la ricerca
       form:
         q: Ricerca in corso...
         search:
           placeholder: Ricerca...
+      sort:
+        label: Label
       start_over: Nuova ricerca
+    search_history:
+      clear:
+        action_confirm: Conferma azione
+        action_title: Titolo dell'azione
+        success: Azione completata con successo
+      no_history: Nessuno storico
+      title: Titolo
   blacklight_advanced_search:
     all: tutti i campi
     any: qualsiasi campo
@@ -228,6 +245,7 @@ it:
       sort_label: Ordina per
       start_over: Ripristina
       title: Ricerca avanzata
+  body: Body
   btn_themefinder_reset: Reset
   cancel: Annulla
   cannot_create_source: Non sei autorizzato a creare questo tipo di fonte
@@ -412,6 +430,7 @@ it:
   filter_subject: Soggetto
   filter_subsequent_entries: Notizie successive
   filter_term: Termine
+  filter_textincipit: Incipit testuale
   filter_textinipit: Incipit testuale
   filter_thematic_opus: Catalogo / Num. d'opera
   filter_title: Titolo
@@ -437,6 +456,7 @@ it:
     export_limit: Il numero massimo di elementi scaricabili è %{max}, mentre questa cartella contiene %{count} elementi.
     export_started: 'Una email contenente il link per lo scaricamento sarà inviata a %{email} (Export job id: %{job}).'
     folder_empty: La cartella è vuota
+    folder_not_source: Possono essere validate solamente le cartelle che contengono Fonti
     items: Elementi
     not_found: La cartella %{id} è inesistente
     publish_job: 'Job di pubblicazione iniziato (id: %{id})'
@@ -446,6 +466,7 @@ it:
     success_bg: Creata cartella %{name}, job %{job} in coda.
     too_many: Impossibile aggiungere più di %{max} oggetti (ne sono selezionati %{count}).
     unpublish_job: 'Job di annullamento pubblicazione iniziato (id: %{id})'
+    validation_started: 'Una email sarà inviata a %{email} una volta finita la validazione (Validation job id: %{job}).'
   from_existing_source: Crea a partire da una fonte già esistente
   full_level: Record completo
   hide_preview: Nascondi anteprima
@@ -609,6 +630,19 @@ it:
     threatise_handwritten: Trattati, manoscritti
     threatise_printed: Trattati, a stampa
     unspecified: "[Template sconosciuto]"
+  record_types_codes:
+    '0': UNK
+    '1': COL
+    '10': TEC
+    '11': CMP
+    '2': MSR
+    '3': SUB
+    '4': LSR
+    '5': LED
+    '6': TSR
+    '7': TED
+    '8': EDT
+    '9': LEC
   refers_to_this: "%{model_from} che fanno riferimento a questo %{model_to}"
   reindex: Indicizza le fonti
   resave: Salva le fonti
@@ -652,6 +686,10 @@ it:
     one: titolo o incipit testuale
     other: titoli o incipit testuali
   status: Stato
+  status_codes:
+    deprecated: DEP
+    inprogress: UNP
+    published: PUB
   std_title_contains: Titolo standard contiene
   switch_language: Cambia lingua
   tf_acknowledgments: La ricerca per incipit utilizza il motore <a href="http://www.themfinder.org/" target="_blank">Themefinder</a> sviluppato dal <a href="http://www.ccarh.org/" target="_blank">CCARH</a>.
@@ -715,6 +753,10 @@ it:
   validation_level_error: Sono presenti errori, correggerli prima di continuare
   validation_level_warning: Alcuni elementi richiedono attenzione, salvare ancora per procedere
   view_source: Mostra fonte
+  views:
+    pagination:
+      next: Prossimo
+      previous: Precedente
   waiting: In attesa
   wf_stage:
     deleted: Cancellato

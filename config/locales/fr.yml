@@ -83,7 +83,7 @@ fr:
         title: Vous avez oublié votre mot de passe ?
       sign_up:
         submit: s'inscrire
-        tiitle: s'inscrire
+        title: s'inscrire
       subdomain:
         title: Sous-domaine
       unlock:
@@ -191,6 +191,7 @@ fr:
       workgroup:
         one: Groupe
         other: Groupes
+  add_institution: Link Institution
   add_person: Attacher une personne
   add_source: Attacher une source
   any_field_contains: N'importe quel champ
@@ -209,11 +210,27 @@ fr:
       remove_limit: supprimer
       submit_limit: Limiter
     search:
+      documents:
+        counter: Compteur
+      facets:
+        sort:
+          count: Compte
+          index: Index
+        title: Affiner votre recherche
       form:
         q: Rechercher...
         search:
           placeholder: Rechercher...
+      sort:
+        label: Label
       start_over: Nouvelle recherche
+    search_history:
+      clear:
+        action_confirm: Confirmer l'action
+        action_title: Titre de l'action
+        success: Succès
+      no_history: Pas d'histoire
+      title: Titre
   blacklight_advanced_search:
     all: tous les
     any: au moins un des
@@ -225,6 +242,7 @@ fr:
       sort_label: Trier par
       start_over: Nouvelle recherche
       title: Recherche avancée
+  body: Body
   btn_themefinder_reset: Reset
   cancel: Annuler
   cannot_create_source: Vous n'êtes pas autorisé à créer ce type de source
@@ -409,6 +427,7 @@ fr:
   filter_subject: Sujet
   filter_subsequent_entries: Entrées suivants
   filter_term: Terme
+  filter_textincipit: Textincipit
   filter_textinipit: TEXTINCIPIT
   filter_thematic_opus: Cat. thématique / No d'opus
   filter_title: Titre
@@ -434,6 +453,7 @@ fr:
     export_limit: Le nombre maximal d'éléments téléchargeables est de %{max}, alors que ce dossier contient %{count} éléments.
     export_started: 'Un courriel contenant le lien de téléchargement a été envoyé à %{email} (Export job id: %{job}).'
     folder_empty: Le dossier est vide
+    folder_not_source: Seuls les dossiers contenant des Sources peuvent être validés
     items: Éléments
     not_found: Le dossier %{id} est inexistant
     publish_job: 'Début du Job de publication (id: %{id})'
@@ -443,6 +463,7 @@ fr:
     success_bg: Dossier %{NAME} créé, tâche %{JOB} ajoutée à la queue.
     too_many: Impossible d'ajouter plus de %{max} éléments  (%{count} sélectionnés).
     unpublish_job: 'Début du Job d''annulation de la publication (id: %{id})'
+    validation_started: 'Un courrier électronique sera envoyé à %{email} avec la fin de la validation (Validation job id : %{job}).'
   from_existing_source: Créer a partir d'une source
   full_level: Notice complète
   hide_preview: Masquer l'aperçu
@@ -606,6 +627,19 @@ fr:
     threatise_handwritten: Traités manuscrits
     threatise_printed: Traités imprimés
     unspecified: "[type indéterminé]"
+  record_types_codes:
+    '0': UNK
+    '1': COL
+    '10': TEC
+    '11': CMP
+    '2': MSR
+    '3': SUB
+    '4': LSR
+    '5': LED
+    '6': TSR
+    '7': TED
+    '8': EDT
+    '9': LEC
   refers_to_this: "%{model_from} se référant à cet(te) %{model_to}"
   reindex: Ré-indexer
   resave: Resauver
@@ -649,6 +683,10 @@ fr:
     one: titre ou incipit de texte
     other: titres ou incipits de texte
   status: Statut
+  status_codes:
+    deprecated: DEP
+    inprogress: UNP
+    published: PUB
   std_title_contains: Le titre standardisé contient
   switch_language: Changer de langue
   tf_acknowledgments: La recherche par incipit utilise l'outil <a href="http://www.themefinder.org/" target="_blank">Themefinder</a> développé par le <a href="http://www.ccarh.org/"target="_blank">CCARH</a>.
@@ -712,10 +750,14 @@ fr:
   validation_level_error: Il y a des erreurs à corriger avant d'enregistrer.
   validation_level_warning: Il y a des avertissements. Enregistrer à nouveau pour ignorer.
   view_source: Montrer la source
+  views:
+    pagination:
+      next: Suivant
+      previous: Précédent
   waiting: En attente
   wf_stage:
     deleted: Supprimé
-    deprecated: DEPRECATED
+    deprecated: Déclassé
     inprogress: Non publié (UNP)
     published: Publié (PUB)
   will_paginate:
